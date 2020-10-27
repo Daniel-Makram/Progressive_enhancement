@@ -1,0 +1,165 @@
+body {
+    max-width: 90%;
+    margin: 0 50vh 0 50vh;
+    background: -webkit-linear-gradient(31deg, rgb(237, 140, 22), rgb(62, 20, 90));
+    background-color: linear-gradient(31deg, rgb(237, 140, 22), rgb(62, 20, 90));
+    background-image: url(img/Neutral_Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+
+}
+
+body p:first-of-type {
+    font-weight: bold;
+}
+
+/* ---------------------------------TEXT INIT-------------------- */
+
+h1,h2,h3{
+    text-align: center;
+}
+blockquote {
+    font-size: 160%;
+    width: 50vw;
+    background-color: rgba(128, 128, 128, 0.767);
+}
+
+.bad,
+.good {
+    text-transform: capitalize;
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+p {
+    font-family: serif;
+    word-spacing: 20%;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+/* ------------------RANDOMN------------------- */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+q,
+blockquote {
+    border-left: 3px solid firebrick;
+    margin: 80px 0px 80px 30px;
+    font-style: italic;
+}
+
+.Villager {
+    border-left: 3px solid forestgreen;
+}
+
+.Farmer {
+    border-left: 3px solid firebrick;
+}
+
+/* ----------------------------------TABLE------------------------------------ */
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+
+    /* center table */
+    margin-left: auto;  
+    margin-right: auto;
+}
+.Section_Table--Quote {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Section_Table--Quote q{
+    border: none;
+}
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+header>cite {
+    background-color: yellow;
+}
+
+/* -----------------------------LIST-------------------------------------------------------------- */
+ul {
+    display: inline-block;
+}
+
+li {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-right: 25px;
+}
+
+ul li:nth-child(1) {
+    background-image: url(img/Thumbs_up.png);
+}
+
+ul li:nth-child(2) {
+    background-image: url(img/Thumbs_down.png);
+}
+
+ul li:nth-child(3) {
+    background-image: url(img/Judging_Cat.png);
+}
+
+/* ----------------------------------FLEX-------------------------------- */
+
+.Container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+.Flex_Story--img {
+    flex: 1;
+    padding: 10px;
+}
+
+.Flex_Story--img img {
+    width: 100%;
+    height: auto;
+}
+
+.Flex_Story--img q {
+    border: none;
+}
+
+.Flex_Story--P1 {
+    flex: 1;
+}
+
+.Flex-Item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* overflow-x: auto; */
+}
+
+.Flex-Item img {
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+}

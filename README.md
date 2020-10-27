@@ -1,6 +1,6 @@
 # Progressive Enhancement
 
-This Website was made following the methods found here : 
+This Website was made following the methods found here: 
 
 [Link to the repository](
 https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement "Link to the Repository")

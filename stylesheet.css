@@ -10,7 +10,7 @@ body {
 
 }
 
-body p:first-of-type {
+#Bold_p {
     font-weight: bold;
 }
 
@@ -151,15 +151,19 @@ ul li:nth-child(3) {
     flex: 1;
 }
 
-.Flex-Item {
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    /* overflow-x: auto; */
+.Flex_Mars--txt{
+    flex: 1;
+    order: 2;
 }
 
-.Flex-Item img {
-    flex-grow: 0;
-    flex-shrink: 0;
-    max-width: 100%;
+.Flex_Mars--img{
+    flex: 1;
+    order: 0;
+    padding: 10px;
+
+}
+
+.Flex_Mars--img img{
+    width: 100%;
+    height: auto;
 }
